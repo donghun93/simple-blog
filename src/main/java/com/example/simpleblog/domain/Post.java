@@ -10,4 +10,5 @@ public class Post {
     @Column(name = "post_id")
     private Long id;
     private String name;
+    private String abc;
 }
