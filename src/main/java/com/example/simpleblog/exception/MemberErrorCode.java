@@ -7,7 +7,9 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public enum MemberErrorCode {
 
-    MEMBER_NOT_FOUND("회원이 존재하지 않습니다.")
+    MEMBER_NOT_FOUND("회원이 존재하지 않습니다."),
+    MEMBER_DUPLICATED("회원이 중복되었습니다.")
+
     ;
 
     private final String description;
